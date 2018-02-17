@@ -1,1 +1,1 @@
-web: python KNNDeploy.py
+web: gunicorn --bind 0.0.0.0:$PORT KNNDeploy:app
