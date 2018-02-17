@@ -1,1 +1,1 @@
-web: python KNNDeploy:app
+web: python KNNDeploy.py
