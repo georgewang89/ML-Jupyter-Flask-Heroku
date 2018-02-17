@@ -1,1 +1,1 @@
-web: gunicorn KNNDeploy:app
+python KNNDeploy.py
