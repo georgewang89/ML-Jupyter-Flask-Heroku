@@ -63,4 +63,4 @@ def predict():
     return jsonify({'message': format(clf[1].target_names[resultPredict])})
 
 
-app.run(debug=True)
+app.run()
