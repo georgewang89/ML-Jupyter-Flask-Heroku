@@ -7,8 +7,8 @@ app = Flask(__name__)
 Swagger(app)
 
 
-
 @app.route('/input/task', methods=['POST'])
+@crossdomain(origin='*')
 def predict():
     """
     Ini Adalah Endpoint Untuk Memprediksi IRIS
